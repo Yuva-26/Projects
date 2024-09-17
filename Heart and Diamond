@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+    int n=1;
+    while(n<=1000)
+    {
+        printf("%c%c",3,4);
+        n++;
+    }
+    getch();
+    return 0;
+}
