@@ -1,0 +1,27 @@
+#include<stdio.h>
+int main()
+{
+int range,a,smallest=9999,largest=0,count=0;
+
+int i=1;
+printf("Enter start num:");
+scanf("%d",&i);
+printf("Enter the count:");
+scanf("%d",&count);
+while(i<=count)
+{
+ if(i>largest){
+ largest=i;
+ }
+ if(i<smallest){
+ smallest=i;
+
+ }
+i++;
+}
+range = largest-smallest;
+printf("largest: %d \n",largest);
+printf("Smallest: %d \n",smallest);
+printf("Range: %d",range) ;
+return 0;
+}
